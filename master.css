@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+}
+
+#app {
+  margin-top: 60px;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.header1 {
+  font-size: 28px;
+  font-family: 'Black Han Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.header2 {
+  font-size: 16px;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: center;
+}
+
+.dept-select-gr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.dept-select-gr * {
+  margin: 0 10px;
+}
+
+.dept-select {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+#grade-tab {
+  text-align: left;
+}
+
+#grade-tab th,td {
+  padding: 5px 10px;
+}
+
+#grade-tab td {
+  font-size: 14px;
+}
+
+.tb-sel {
+  width: 54px;
+  height: 32px;
+}
+
+.sect-bottom {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+}
+
+.grader-txt {
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif
+}
+
+.grader-txt span {
+  margin: 3px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.sect-bottom button {
+  width: 72px;
+  height: 36px;
+}
+
+#footer-sect {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+  color: #fff;
+  background-color: #333;
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: center;
+}
